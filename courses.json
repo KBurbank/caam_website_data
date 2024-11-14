@@ -7,11 +7,11 @@
     },
     {
       "courseNumber": "STAT20000",
-      "courseName": "Elementary Statistics Dude",
+      "courseName": "Elementary Statistics My Dude",
       "approved": 0
     },
     {
-      "courseNumber": "STAT23400",
+      "courseNumber": "CMSC23400",
       "courseName": "Introduction to Computer Science",
       "approved": 1
     }
