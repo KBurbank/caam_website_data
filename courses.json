@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "courseNumber": "STAT22000",
+      "courseName": "Statistical Methods and Applications",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT20000",
+      "courseName": "Elementary Statistics",
+      "approved": 0
+    }
+  ]
+} 
