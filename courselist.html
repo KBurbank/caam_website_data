@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UChicago CAAM Elective Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .course-lists {
+            display: flex;
+            gap: 40px;
+        }
+
+        .course-section {
+            flex: 1;
+        }
+
+        .course-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .approved {
+            border-left: 5px solid #4CAF50;
+        }
+
+        .not-approved {
+            border-left: 5px solid #f44336;
+        }
+
+        h1 {
+            color: #800000; /* UChicago maroon */
+            text-align: center;
+        }
+
+        h2 {
+            color: #666;
+            border-bottom: 2px solid #800000;
+            padding-bottom: 5px;
+        }
+
+        .course-number {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .course-name {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        #loading {
+            text-align: center;
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CAAM Elective Courses</h1>
+    
+    <input type="text" id="searchBox" class="search-box" 
+           placeholder="Search for courses by number or name...">
+
+    <div id="loading">Loading courses...</div>
+    
+    <div class="course-lists">
+        <div class="course-section">
+            <h2>Approved Electives</h2>
+            <div id="approved-courses"></div>
+        </div>
+        
+        <div class="course-section">
+            <h2>Not Approved</h2>
+            <div id="not-approved-courses"></div>
+        </div>
+    </div>
+
+    <script>
+        let allCourses = [];
+
+        function fetchCourses() {
+            fetch('https://raw.githubusercontent.com/KBurbank/caam_website_data/refs/heads/main/courses.json')
+                .then(response => response.json())
+                .then(data => {
+                    allCourses = data.courses;
+                    document.getElementById('loading').style.display = 'none';
+                    displayCourses(allCourses);
+                })
+                .catch(error => {
+                    console.error('Error fetching the JSON file:', error);
+                    document.getElementById('loading').textContent = 
+                        'Error loading courses. Please try again later.';
+                });
+        }
+
+        function displayCourses(courses) {
+            const approvedDiv = document.getElementById('approved-courses');
+            const notApprovedDiv = document.getElementById('not-approved-courses');
+            
+            approvedDiv.innerHTML = '';
+            notApprovedDiv.innerHTML = '';
+
+            courses.forEach(course => {
+                const courseElement = document.createElement('div');
+                courseElement.className = `course-card ${course.approved == 1 ? 'approved' : 'not-approved'}`;
+                courseElement.innerHTML = `
+                    <div class="course-number">${formatCourseNumber(course.courseNumber)}</div>
+                    <div class="course-name">${course.courseName}</div>
+                `;
+
+                if (course.approved == 1) {
+                    approvedDiv.appendChild(courseElement);
+                } else {
+                    notApprovedDiv.appendChild(courseElement);
+                }
+            });
+        }
+
+        function formatCourseNumber(number) {
+            return number.substring(0, 4) + ' ' + number.substring(4);
+        }
+
+        function searchCourses(searchTerm) {
+            const filteredCourses = allCourses.filter(course => {
+                const searchString = searchTerm.toLowerCase();
+                return course.courseNumber.toLowerCase().includes(searchString) ||
+                       course.courseName.toLowerCase().includes(searchString);
+            });
+            displayCourses(filteredCourses);
+        }
+
+        document.getElementById('searchBox').addEventListener('input', (e) => {
+            searchCourses(e.target.value);
+        });
+
+        // Fetch the courses when the page loads
+        fetchCourses();
+    </script>
+</body>
+</html> 
