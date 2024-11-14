@@ -70,11 +70,27 @@
             border-radius: 5px;
             font-size: 16px;
         }
+
+        /* Add new style for the inquiry text */
+        .inquiry-text {
+            text-align: center;
+            color: #666;
+            margin: 20px 0;
+            font-size: 1.1em;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
     </style>
 </head>
 <body>
     <h1>CAAM Elective Courses</h1>
     
+    <div class="inquiry-text">
+        To inquire about the suitability of a course which is not listed here, please contact the CAAM DUS.
+    </div>
+
     <input type="text" id="searchBox" class="search-box" 
            placeholder="Search for courses by number or name...">
 
@@ -82,12 +98,12 @@
     
     <div class="course-lists">
         <div class="course-section">
-            <h2>Approved Electives</h2>
+            <h2>Suitable as CAAM Electives</h2>
             <div id="approved-courses"></div>
         </div>
         
         <div class="course-section">
-            <h2>Not Approved</h2>
+            <h2>Not Suitable</h2>
             <div id="not-approved-courses"></div>
         </div>
     </div>
@@ -117,7 +133,12 @@
             approvedDiv.innerHTML = '';
             notApprovedDiv.innerHTML = '';
 
-            courses.forEach(course => {
+            // Sort courses by course number
+            const sortedCourses = [...courses].sort((a, b) => 
+                a.courseNumber.localeCompare(b.courseNumber)
+            );
+
+            sortedCourses.forEach(course => {
                 const courseElement = document.createElement('div');
                 courseElement.className = `course-card ${course.approved == 1 ? 'approved' : 'not-approved'}`;
                 courseElement.innerHTML = `
