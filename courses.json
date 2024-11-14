@@ -9,6 +9,11 @@
       "courseNumber": "STAT20000",
       "courseName": "Elementary Statistics",
       "approved": 0
+    },
+    {
+      "courseNumber": "CMSC20000",
+      "courseName": "Introduction to Computer Science",
+      "approved": 0
     }
   ]
 } 
