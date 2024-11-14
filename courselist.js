@@ -49,9 +49,18 @@ function formatCourseNumber(number) {
 
 function searchCourses(searchTerm) {
     const filteredCourses = allCourses.filter(course => {
-        const searchString = searchTerm.toLowerCase();
-        return course.courseNumber.toLowerCase().includes(searchString) ||
-               course.courseName.toLowerCase().includes(searchString);
+        // Clean up search term: trim whitespace and collapse multiple spaces
+        const searchString = searchTerm.toLowerCase().trim().replace(/\s+/g, ' ');
+        
+        // Clean up course number (remove all spaces) for matching
+        const courseNum = course.courseNumber.toLowerCase().replace(/\s+/g, '');
+        const searchWithoutSpaces = searchString.replace(/\s+/g, '');
+        
+        // Clean up course name
+        const courseName = course.courseName.toLowerCase();
+        
+        return courseNum.includes(searchWithoutSpaces) ||
+               courseName.includes(searchString);
     });
     displayCourses(filteredCourses);
 }
