@@ -24,15 +24,15 @@ function displayCourses(courses) {
 
     // Sort courses by course number
     const sortedCourses = [...courses].sort((a, b) => 
-        a.courseNumber.localeCompare(b.courseNumber)
+        (a.courseNumber || '').localeCompare(b.courseNumber || '')
     );
 
     sortedCourses.forEach(course => {
         const courseElement = document.createElement('div');
         courseElement.className = `course-card ${course.approved == 1 ? 'approved' : 'not-approved'}`;
         courseElement.innerHTML = `
-            <div class="course-number">${formatCourseNumber(course.courseNumber)}</div>
-            <div class="course-name">${course.courseName}</div>
+            <div class="course-number">${formatCourseNumber(course.courseNumber || '')}</div>
+            <div class="course-name">${course.courseName || 'Unknown Course Name'}</div>
         `;
 
         if (course.approved == 1) {
@@ -53,11 +53,11 @@ function searchCourses(searchTerm) {
         const searchString = searchTerm.toLowerCase().trim().replace(/\s+/g, ' ');
         
         // Clean up course number (remove all spaces) for matching
-        const courseNum = course.courseNumber.toLowerCase().replace(/\s+/g, '');
+        const courseNum = (course.courseNumber || '').toLowerCase().replace(/\s+/g, '');
         const searchWithoutSpaces = searchString.replace(/\s+/g, '');
         
-        // Clean up course name
-        const courseName = course.courseName.toLowerCase();
+        // Clean up course name, handle missing courseName
+        const courseName = (course.courseName || '').toLowerCase();
         
         return courseNum.includes(searchWithoutSpaces) ||
                courseName.includes(searchString);
