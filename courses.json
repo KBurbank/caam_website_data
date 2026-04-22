@@ -1,1 +1,939 @@
-{"courses":[{"courseNumber":"STAT27700","courseName":"Mathematical Foundations of Machine Learning","approved":1},{"courseNumber":"CMSC25400","courseName":"Machine Learning","approved":1},{"courseNumber":"CMSC31230","courseName":"Fundamentals of Deep Learning","approved":1},{"courseNumber":"CMSC25460","courseName":"Introduction to Optimization","approved":1},{"courseNumber":"ECMA31340","courseName":"Big Data Tools in Economics","approved":1},{"courseNumber":"BUSN20820","courseName":"Financial Econometrics","approved":1},{"courseNumber":"ECON21300","courseName":"Data Construction and Interpretation in Economic Applications","approved":1},{"courseNumber":"STAT27725","courseName":"Machine Learning","approved":1},{"courseNumber":"ECON21200","courseName":"Time Series Econometrics","approved":1},{"courseNumber":"STAT26100","courseName":"Time Dependent Data","approved":1},{"courseNumber":"ECON21110","courseName":"Applied Microeconometrics","approved":1},{"courseNumber":"BIOS20236","courseName":"Biological Dynamics","approved":1},{"courseNumber":"BIOS26210","courseName":"Mathematical Methods for Biological Sciences I-II.","approved":1},{"courseNumber":"BIOS26211","courseName":"Mathematical Methods for Biological Sciences I-II.","approved":1},{"courseNumber":"BIOS26120","courseName":"An Introduction to Bioinformatics and Proteomics","approved":1},{"courseNumber":"CMSC25025","courseName":"Machine Learning and Large-Scale Data Analysis","approved":1},{"courseNumber":"CMSC25040","courseName":"Introduction to Computer Vision","approved":1},{"courseNumber":"CMSC25300","courseName":"Mathematical Foundations of Machine Learning","approved":1},{"courseNumber":"CMSC25500","courseName":"Introduction to Neural Networks","approved":1},{"courseNumber":"DATA22100","courseName":"Introduction to Machine Learning","approved":1},{"courseNumber":"DATA22700","courseName":"Data Visualization and Communication","approved":1},{"courseNumber":"DATA26100","courseName":"Statistical Pitfalls and Misinterpretation of Data","approved":1},{"courseNumber":"CMSC21800","courseName":"Data Science for Computer Scientists","approved":1},{"courseNumber":"BUSN20400","courseName":"Investments","approved":1},{"courseNumber":"BUSN20800","courseName":"Big Data","approved":1},{"courseNumber":"BUSN20810","courseName":"Machine Learning","approved":1},{"courseNumber":"BUSN20820","courseName":"Financial Econometrics","approved":1},{"courseNumber":"BUSN20405","courseName":"Financial Instruments","approved":1},{"courseNumber":"TTIC31020","courseName":"Introduction to Machine Learning","approved":1},{"courseNumber":"TTIC31180","courseName":"Probabilistic Graphical Models","approved":1},{"courseNumber":"STAT27410","courseName":"Introduction to Bayesian Data Analysis","approved":1},{"courseNumber":"CMSC25700","courseName":"Natural Language Processing","approved":1},{"courseNumber":"CMSC23900","courseName":"Data Visualization","approved":1},{"courseNumber":"DATA21100","courseName":"Mathematical Methods for Data Science I","approved":1},{"courseNumber":"DATA21200","courseName":"Mathematical Methods for Data Science II","approved":1},{"courseNumber":"STAT22400","courseName":"Applied Regression Analysis","approved":1},{"courseNumber":"STAT22600","courseName":"Analysis of Categorical Data","approved":1},{"courseNumber":"STAT24620","courseName":"Multivariate Statistical Analysis: Applications and Techniques","approved":1},{"courseNumber":"MATH23500","courseName":"Markov Chains, Martingales, and Brownian Motion","approved":1},{"courseNumber":"ECMA31320","courseName":"Applications of Econometric and Data Science Methods","approved":1},{"courseNumber":"ECON21020","courseName":"Econometrics","approved":1},{"courseNumber":"ECON20700","courseName":"Game Theory and Economic Applications","approved":1},{"courseNumber":"ECMA31330","courseName":"Econometrics and Machine Learning","approved":1},{"courseNumber":"ECON21410","courseName":"Computational Methods in Economics","approved":1},{"courseNumber":"ECON21800","courseName":"Experimental Economics","approved":1},{"courseNumber":"ECON23410","courseName":"Economic Growth","approved":1},{"courseNumber":"STAT37797","courseName":"Topics in Mathematical Data Science: Spectral Methods and Nonconvex Optimization","approved":1},{"courseNumber":"STAT32940","courseName":"Multivariate Data Analysis via Matrix Decompositions","approved":1},{"courseNumber":"BIOS25420","courseName":"Microbial Omics","approved":1},{"courseNumber":"BIOS26121","courseName":"Introduction to Transcriptomics","approved":1},{"courseNumber":"STAT27850","courseName":"Multiple Testing, Modern Inference, and Replicability","approved":1},{"courseNumber":"STAT36900","courseName":"Applied Longitudinal Data Analysis","approved":1},{"courseNumber":"STAT28200","courseName":"Dynamical Systems with Applications","approved":1},{"courseNumber":"CMSC28130","courseName":"Honors Introduction to Complexity Theory","approved":1},{"courseNumber":"CMSC21400","courseName":"Creative Machines and Innovative Instrumentation","approved":1},{"courseNumber":"STAT22000","courseName":"Statistical Methods and Applications","approved":1},{"courseNumber":"STAT27400","courseName":"Nonparametric Inference","approved":1},{"courseNumber":"BUSN41204","courseName":"Machine Learning","approved":1},{"courseNumber":"CMSC23500","courseName":"Introduction to Database Systems","approved":1},{"courseNumber":"CMSC23000","courseName":"Operating Systems","approved":1},{"courseNumber":"ECON21030","courseName":"Econometrics - Honors","approved":1},{"courseNumber":"MENG25620","courseName":"Applied Artificial Intelligence for Materials Science and Engineering","approved":1},{"courseNumber":"STAT22200","courseName":"Linear Models and Experimental Design","approved":1},{"courseNumber":"STAT27420","courseName":"Introduction to Causality with Machine Learning","approved":1},{"courseNumber":"CMSC23710","courseName":"Scientific Visualization","approved":1},{"courseNumber":"PHYS13300","courseName":"Mechanics; Electricity and Magnetism; Waves, Optics, and Heat.","approved":1},{"courseNumber":"DATA25900","courseName":"Ethics, Fairness, Responsibility, and Privacy in Data Science","approved":1},{"courseNumber":"ECON21031","courseName":"Econometrics II-Honors","approved":1},{"courseNumber":"ECMA33620","courseName":"Introduction to Heterogeneous Agent Macroeconomics","approved":1},{"courseNumber":"ECMA33220","courseName":"Introduction to Advanced Macroeconomic Analysis","approved":1},{"courseNumber":"STAT22700","courseName":"Biostatistical Methods","approved":1},{"courseNumber":"STAT24630","courseName":"Causal Inference Methods and Case Studies","approved":1},{"courseNumber":"NSCI23700","courseName":"Methods in Computational Neuroscience","approved":1},{"courseNumber":"ECMA31210","courseName":"Time Series Analysis for Macroeconomics and Finance","approved":1},{"courseNumber":"DATA21300","courseName":"Models in Data Science","approved":1},{"courseNumber":"ENST28702","courseName":"Introduction to GIS and Spatial Analysis","approved":1},{"courseNumber":"ECON20520","courseName":"Formal Models of Political Economics","approved":1},{"courseNumber":"PBHS33400","approved":1},{"courseNumber":"CHEM26100","courseName":"Quantum Mechanics; Thermodynamics; Chemical Kinetics and Dynamics.","approved":1},{"courseNumber":"CHEM26200","courseName":"Quantum Mechanics; Thermodynamics; Chemical Kinetics and Dynamics.","approved":1},{"courseNumber":"CHEM26300","courseName":"Quantum Mechanics; Thermodynamics; Chemical Kinetics and Dynamics.","approved":1},{"courseNumber":"ECON24450","courseName":"Inequality and the Social Safety Net: Theory, Empirics, and Policies","approved":1},{"courseNumber":"MATH25400","courseName":"Basic Algebra I-II.","approved":1},{"courseNumber":"ASTR13300","courseName":"Introduction to Astrophysics","approved":1},{"courseNumber":"STAT22400","courseName":"Applied Regression Analysis","approved":1},{"courseNumber":"CMSC28400","courseName":"Introduction to Cryptography","approved":1},{"courseNumber":"ECON26610","approved":1},{"courseNumber":"ECON23000","courseName":"Money and Banking","approved":1},{"courseNumber":"MENG22100","courseName":"Quantitative Physiology","approved":1},{"courseNumber":"BIOS25256","courseName":"Immunobiology","approved":1},{"courseNumber":"STAT22401","courseName":"Regression Analysis for Health and Social Research","approved":1},{"courseNumber":"MATH23700","courseName":"Introduction to Modelling","approved":1},{"courseNumber":"BIOS24408","courseName":"Modeling and Signal Analysis for Neuroscientists","approved":1},{"courseNumber":"MATH29700","courseName":"Proseminar in Mathematics","approved":1},{"courseNumber":"PHYS23410","courseName":"Quantum Mechanics I-II-III.","approved":1},{"courseNumber":"PHYS23510","courseName":"Quantum Mechanics I-II-III.","approved":1},{"courseNumber":"PHYS27900","courseName":"Statistical and Thermal Physics","approved":1},{"courseNumber":"CMSC27410","courseName":"Honors Combinatorics","approved":1},{"courseNumber":"CMSC27530","courseName":"Honors Graph Theory","approved":1},{"courseNumber":"MATH27000","courseName":"Basic Complex Variables","approved":1},{"courseNumber":"ECMA31000","courseName":"Introduction to Empirical Analysis","approved":1},{"courseNumber":"MATH27600","courseName":"Dynamical Systems","approved":1},{"courseNumber":"MATH27500","courseName":"Basic Theory of Partial Differential Equations","approved":1},{"courseNumber":"BIOS26318","courseName":"Fundamentals of Biological Data Analysis","approved":1},{"courseNumber":"PHYS25000","courseName":"Computational Physics","approved":1},{"courseNumber":"BUSN20550","courseName":"Application Development","approved":0},{"courseNumber":"DATA27100","courseName":"Data Science Clinic I-II.","approved":0},{"courseNumber":"DATA11800","courseName":"Introduction to Data Science I","approved":0},{"courseNumber":"DATA11900","courseName":"Introduction to Data Science II","approved":0},{"courseNumber":"BIOS20171","courseName":"Human Genetics and Developmental Biology","approved":0},{"courseNumber":"BIOS20175","courseName":"Biochemistry and Metabolism","approved":0},{"courseNumber":"ECON20000","courseName":"The Elements of Economic Analysis I-II-III-IV.","approved":0},{"courseNumber":"ECON20200","courseName":"The Elements of Economic Analysis I-II-III-IV.","approved":0},{"courseNumber":"ECON23950","courseName":"Economic Policy Analysis","approved":0},{"courseNumber":"BUSN20100","courseName":"Financial Accounting","approved":0},{"courseNumber":"CMSC22200","courseName":"Computer Architecture","approved":0},{"courseNumber":"CMSC14300","courseName":"Systems Programming I","approved":0},{"courseNumber":"CMSC14400","courseName":"Systems Programming II","approved":0},{"courseNumber":"MACS20500","courseName":"Computing for the Social Sciences","approved":0},{"courseNumber":"ECMA35550","courseName":"The Practicalities of Running Randomized Control Trials","approved":0},{"courseNumber":"CHEM23300","courseName":"Introduction to Chemical Biology","approved":0},{"courseNumber":"MENG23100","courseName":"Biological Materials","approved":0},{"courseNumber":"CMSC23200","courseName":"Introduction to Computer Security","approved":0},{"courseNumber":"NSCI20101","courseName":"Foundations of Neuroscience","approved":0},{"courseNumber":"ASTR12700","courseName":"Stars","approved":0},{"courseNumber":"MENG23110","courseName":"Stem Cell Biology, Regeneration, and Disease Modeling","approved":0},{"courseNumber":"ECON25100","courseName":"Financial Economics; Speculative Markets","approved":0},{"courseNumber":"ECON15500","courseName":"Introduction to Development Economics","approved":0},{"courseNumber":"ECON20210","courseName":"The Elements of Economic Analysis: Honors I-II-III.","approved":0}]}
+{
+  "courses": [
+    {
+      "courseNumber": "ASTR12700",
+      "courseName": "Stars",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ASTR13300",
+      "courseName": "Introduction to Astrophysics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BIOS20171",
+      "courseName": "Human Genetics and Developmental Biology",
+      "approved": 0
+    },
+    {
+      "courseNumber": "BIOS20172",
+      "courseName": "Mathematical Modeling for Pre-Med Students",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BIOS20175",
+      "courseName": "Biochemistry and Metabolism",
+      "approved": 0
+    },
+    {
+      "courseNumber": "BIOS20236",
+      "courseName": "Biological Dynamics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BIOS24408",
+      "courseName": "Modeling and Signal Analysis for Neuroscientists",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BIOS25256",
+      "courseName": "Immunobiology",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BIOS25258",
+      "courseName": "Immunopathology",
+      "approved": 0
+    },
+    {
+      "courseNumber": "BIOS25420",
+      "courseName": "Microbial Omics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BIOS26120",
+      "courseName": "An Introduction to Bioinformatics and Proteomics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BIOS26121",
+      "courseName": "Introduction to Transcriptomics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BIOS26210",
+      "courseName": "Mathematical Methods for Biological Sciences I-II.",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BIOS26211",
+      "courseName": "Mathematical Methods for Biological Sciences I-II.",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BIOS26318",
+      "courseName": "Fundamentals of Biological Data Analysis",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BIOS26403",
+      "courseName": "Quantitative Immunobiology",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BIOS26406",
+      "courseName": "Machine Learning for Healthcare",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BUSN20100",
+      "courseName": "Financial Accounting",
+      "approved": 0
+    },
+    {
+      "courseNumber": "BUSN20231",
+      "courseName": "Economics in a Globalized World",
+      "approved": 0
+    },
+    {
+      "courseNumber": "BUSN20400",
+      "courseName": "Investments",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BUSN20405",
+      "courseName": "Financial Instruments",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BUSN20550",
+      "courseName": "Application Development",
+      "approved": 0
+    },
+    {
+      "courseNumber": "BUSN20800",
+      "courseName": "Big Data",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BUSN20810",
+      "courseName": "Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BUSN20820",
+      "courseName": "Financial Econometrics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BUSN33450",
+      "courseName": "Real Estate Investments I",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BUSN33451",
+      "courseName": "Real Estate Investments II",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BUSN35000",
+      "courseName": "Investments",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BUSN35126",
+      "courseName": "Quantitative Portfolio Management",
+      "approved": 1
+    },
+    {
+      "courseNumber": "BUSN41204",
+      "courseName": "Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CAAM31020",
+      "courseName": "Mathematical Computation IIB: Nonlinear Optimization",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CAAM37710",
+      "courseName": "Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CHEM23300",
+      "courseName": "Introduction to Chemical Biology",
+      "approved": 0
+    },
+    {
+      "courseNumber": "CHEM26100",
+      "courseName": "Quantum Mechanics; Thermodynamics; Chemical Kinetics and Dynamics.",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CHEM26200",
+      "courseName": "Quantum Mechanics; Thermodynamics; Chemical Kinetics and Dynamics.",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CHEM26300",
+      "courseName": "Quantum Mechanics; Thermodynamics; Chemical Kinetics and Dynamics.",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC13600",
+      "courseName": "Introduction to Data Engineering",
+      "approved": 0
+    },
+    {
+      "courseNumber": "CMSC14300",
+      "courseName": "Systems Programming I",
+      "approved": 0
+    },
+    {
+      "courseNumber": "CMSC14400",
+      "courseName": "Systems Programming II",
+      "approved": 0
+    },
+    {
+      "courseNumber": "CMSC15400",
+      "courseName": "Introduction to Computer Systems",
+      "approved": 0
+    },
+    {
+      "courseNumber": "CMSC21400",
+      "courseName": "Creative Machines and Innovative Instrumentation",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC21800",
+      "courseName": "Data Science for Computer Scientists",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC22200",
+      "courseName": "Computer Architecture",
+      "approved": 0
+    },
+    {
+      "courseNumber": "CMSC23000",
+      "courseName": "Operating Systems",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC23200",
+      "courseName": "Introduction to Computer Security",
+      "approved": 0
+    },
+    {
+      "courseNumber": "CMSC23500",
+      "courseName": "Introduction to Database Systems",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC23710",
+      "courseName": "Scientific Visualization",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC23900",
+      "courseName": "Data Visualization",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC25025",
+      "courseName": "Machine Learning and Large-Scale Data Analysis",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC25040",
+      "courseName": "Introduction to Computer Vision",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC25300",
+      "courseName": "Mathematical Foundations of Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC25400",
+      "courseName": "Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC25460",
+      "courseName": "Introduction to Optimization",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC25500",
+      "courseName": "Introduction to Neural Networks",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC25700",
+      "courseName": "Natural Language Processing",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC25750",
+      "courseName": "Large Language Models",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC25800",
+      "courseName": "Adversarial Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC27410",
+      "courseName": "Honors Combinatorics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC27530",
+      "courseName": "Honors Graph Theory",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC28000",
+      "courseName": "Introduction to Formal Languages",
+      "approved": 0
+    },
+    {
+      "courseNumber": "CMSC28100",
+      "courseName": "Introduction to Complexity Theory",
+      "approved": 0
+    },
+    {
+      "courseNumber": "CMSC28130",
+      "courseName": "Honors Introduction to Complexity Theory",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC28400",
+      "courseName": "Introduction to Cryptography",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC31230",
+      "courseName": "Fundamentals of Deep Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC33221",
+      "courseName": "Advanced Topics in Law and Computing",
+      "approved": 0
+    },
+    {
+      "courseNumber": "CMSC35401",
+      "courseName": "Topics in Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "CMSC37000",
+      "courseName": "Algorithms",
+      "approved": 1
+    },
+    {
+      "courseNumber": "COGS22015",
+      "courseName": "Computational Linguistics",
+      "approved": 0
+    },
+    {
+      "courseNumber": "DATA11800",
+      "courseName": "Introduction to Data Science I",
+      "approved": 0
+    },
+    {
+      "courseNumber": "DATA11900",
+      "courseName": "Introduction to Data Science II",
+      "approved": 0
+    },
+    {
+      "courseNumber": "DATA21100",
+      "courseName": "Mathematical Methods for Data Science I",
+      "approved": 1
+    },
+    {
+      "courseNumber": "DATA21200",
+      "courseName": "Mathematical Methods for Data Science II",
+      "approved": 1
+    },
+    {
+      "courseNumber": "DATA21300",
+      "courseName": "Models in Data Science",
+      "approved": 1
+    },
+    {
+      "courseNumber": "DATA22100",
+      "courseName": "Introduction to Machine Learning: Concepts and Applications",
+      "approved": 1
+    },
+    {
+      "courseNumber": "DATA22700",
+      "courseName": "Data Visualization and Communication",
+      "approved": 1
+    },
+    {
+      "courseNumber": "DATA23100",
+      "courseName": "Machine Learning Fundamentals: Theory and Practice",
+      "approved": 1
+    },
+    {
+      "courseNumber": "DATA25900",
+      "courseName": "Ethics, Fairness, Responsibility, and Privacy in Data Science",
+      "approved": 1
+    },
+    {
+      "courseNumber": "DATA26100",
+      "courseName": "Statistical Pitfalls and Misinterpretation of Data",
+      "approved": 1
+    },
+    {
+      "courseNumber": "DATA27100",
+      "courseName": "Data Science Clinic I-II.",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECMA31000",
+      "courseName": "Introduction to Empirical Analysis",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECMA31210",
+      "courseName": "Time Series Analysis for Macroeconomics and Finance",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECMA31320",
+      "courseName": "Applications of Econometric and Data Science Methods",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECMA31330",
+      "courseName": "Econometrics and Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECMA31340",
+      "courseName": "Big Data Tools in Economics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECMA31350",
+      "courseName": "Machine Learning for Economists",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECMA31360",
+      "courseName": "Causal Inference",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECMA31380",
+      "courseName": "Causal Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECMA33220",
+      "courseName": "Introduction to Advanced Macroeconomic Analysis",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECMA33620",
+      "courseName": "Introduction to Heterogeneous Agent Macroeconomics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECMA34150",
+      "courseName": "Origins, Persistence, and Consequences of Inequality",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECMA35050",
+      "courseName": "Information and Financial Markets",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECMA35550",
+      "courseName": "The Practicalities of Running Randomized Control Trials",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECON15020",
+      "courseName": "Trading: From Game Theory to Finance",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON15500",
+      "courseName": "Introduction to Development Economics",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECON20000",
+      "courseName": "The Elements of Economic Analysis I-II-III-IV.",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECON20010",
+      "courseName": "The Elements of Economic Analysis: Honors I-II-III.",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON20100",
+      "courseName": "The Elements of Economic Analysis I-II-III-IV.",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECON20200",
+      "courseName": "The Elements of Economic Analysis I-II-III-IV.",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECON20210",
+      "courseName": "The Elements of Economic Analysis: Honors I-II-III.",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECON20520",
+      "courseName": "Formal Models of Political Economics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON20700",
+      "courseName": "Game Theory and Economic Applications",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON20770",
+      "courseName": "Decision and Strategy",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECON20780",
+      "courseName": "Decision and Strategy II",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECON21020",
+      "courseName": "Econometrics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON21030",
+      "courseName": "Econometrics - Honors",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON21031",
+      "courseName": "Econometrics II-Honors",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON21110",
+      "courseName": "Applied Microeconometrics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON21160",
+      "courseName": "Topics in Causal Inference",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON21200",
+      "courseName": "Time Series Econometrics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON21300",
+      "courseName": "Data Construction and Interpretation in Economic Applications",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON21410",
+      "courseName": "Computational Methods in Economics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON21800",
+      "courseName": "Experimental Economics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON23000",
+      "courseName": "Money and Banking",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON23410",
+      "courseName": "Economic Growth",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON23950",
+      "courseName": "Economic Policy Analysis",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECON24450",
+      "courseName": "Inequality and the Social Safety Net: Theory, Empirics, and Policies",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON25100",
+      "courseName": "Financial Economics; Speculative Markets",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECON25120",
+      "courseName": "Options and Volatility Products",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON26040",
+      "courseName": "Human Capital and the Economy",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ECON26610",
+      "courseName": "The Economics of Cities and Regions",
+      "approved": 1
+    },
+    {
+      "courseNumber": "ENST28702",
+      "courseName": "Introduction to GIS and Spatial Analysis",
+      "approved": 1
+    },
+    {
+      "courseNumber": "FINM25000",
+      "courseName": "Quantitative Portfolio Management and Algorithmic Trading",
+      "approved": 1
+    },
+    {
+      "courseNumber": "FINM33150",
+      "courseName": "Quantitative Trading Strategies",
+      "approved": 1
+    },
+    {
+      "courseNumber": "FINM33160",
+      "courseName": "Machine Learning for Finance",
+      "approved": 1
+    },
+    {
+      "courseNumber": "FINM33200",
+      "courseName": "Generative and Agentic AI for Finance",
+      "approved": 1
+    },
+    {
+      "courseNumber": "MACS20500",
+      "courseName": "Computing for the Social Sciences",
+      "approved": 0
+    },
+    {
+      "courseNumber": "MATH18500",
+      "courseName": "Mathematical Methods in the Physical Sciences I-II-III-IV.",
+      "approved": 0
+    },
+    {
+      "courseNumber": "MATH23500",
+      "courseName": "Markov Chains, Martingales, and Brownian Motion",
+      "approved": 1
+    },
+    {
+      "courseNumber": "MATH23700",
+      "courseName": "Introduction to Modelling",
+      "approved": 1
+    },
+    {
+      "courseNumber": "MATH25400",
+      "courseName": "Basic Algebra I-II.",
+      "approved": 1
+    },
+    {
+      "courseNumber": "MATH26200",
+      "courseName": "Point-Set Topology",
+      "approved": 0
+    },
+    {
+      "courseNumber": "MATH27000",
+      "courseName": "Basic Complex Variables",
+      "approved": 1
+    },
+    {
+      "courseNumber": "MATH27100",
+      "courseName": "Measure and Integration",
+      "approved": 0
+    },
+    {
+      "courseNumber": "MATH27200",
+      "courseName": "Basic Functional Analysis",
+      "approved": 0
+    },
+    {
+      "courseNumber": "MATH27300",
+      "courseName": "Basic Theory of Ordinary Differential Equations",
+      "approved": 0
+    },
+    {
+      "courseNumber": "MATH27500",
+      "courseName": "Basic Theory of Partial Differential Equations",
+      "approved": 1
+    },
+    {
+      "courseNumber": "MATH27600",
+      "courseName": "Dynamical Systems",
+      "approved": 1
+    },
+    {
+      "courseNumber": "MATH29700",
+      "courseName": "Proseminar in Mathematics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "MENG22100",
+      "courseName": "Quantitative Physiology",
+      "approved": 1
+    },
+    {
+      "courseNumber": "MENG23100",
+      "courseName": "Biological Materials",
+      "approved": 0
+    },
+    {
+      "courseNumber": "MENG23110",
+      "courseName": "Stem Cell Biology, Regeneration, and Disease Modeling",
+      "approved": 0
+    },
+    {
+      "courseNumber": "MENG25620",
+      "courseName": "Applied Artificial Intelligence for Materials Science and Engineering",
+      "approved": 1
+    },
+    {
+      "courseNumber": "NSCI20101",
+      "courseName": "Foundations of Neuroscience",
+      "approved": 0
+    },
+    {
+      "courseNumber": "NSCI23700",
+      "courseName": "Methods in Computational Neuroscience",
+      "approved": 1
+    },
+    {
+      "courseNumber": "NSCI24000",
+      "courseName": "Modeling and Signal Analysis for Neuroscientists",
+      "approved": 1
+    },
+    {
+      "courseNumber": "PBHS33400",
+      "courseName": "Multilevel Modeling",
+      "approved": 1
+    },
+    {
+      "courseNumber": "PHYS13300",
+      "courseName": "Mechanics; Electricity and Magnetism; Waves, Optics, and Heat.",
+      "approved": 1
+    },
+    {
+      "courseNumber": "PHYS23410",
+      "courseName": "Quantum Mechanics I-II-III.",
+      "approved": 1
+    },
+    {
+      "courseNumber": "PHYS23510",
+      "courseName": "Quantum Mechanics I-II-III.",
+      "approved": 1
+    },
+    {
+      "courseNumber": "PHYS24310",
+      "courseName": "Quantum Mechanics I-II-III.",
+      "approved": 1
+    },
+    {
+      "courseNumber": "PHYS25000",
+      "courseName": "Computational Physics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "PHYS27900",
+      "courseName": "Statistical and Thermal Physics",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT22000",
+      "courseName": "Statistical Methods and Applications",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT22200",
+      "courseName": "Linear Models and Experimental Design",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT22400",
+      "courseName": "Applied Regression Analysis",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT22401",
+      "courseName": "Regression Analysis for Health and Social Research",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT22600",
+      "courseName": "Analysis of Categorical Data",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT22700",
+      "courseName": "Biostatistical Methods",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT23400",
+      "courseName": "Statistical Models and Methods",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT24310",
+      "courseName": "Numerical Linear Algebra: An Introduction to Computation",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT24620",
+      "courseName": "Multivariate Statistical Analysis: Applications and Techniques",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT24630",
+      "courseName": "Causal Inference Methods and Case Studies",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT25100",
+      "courseName": "Introduction to Mathematical Probability",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT26100",
+      "courseName": "Time Dependent Data",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT27400",
+      "courseName": "Nonparametric Inference",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT27410",
+      "courseName": "Introduction to Bayesian Data Analysis",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT27420",
+      "courseName": "Introduction to Causality with Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT27700",
+      "courseName": "Mathematical Foundations of Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT27725",
+      "courseName": "Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT27815",
+      "courseName": "Practical R Programming",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT27850",
+      "courseName": "Multiple Testing, Modern Inference, and Replicability",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT28200",
+      "courseName": "Dynamical Systems with Applications",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT30900",
+      "courseName": "Mathematical Computation I: Matrix Computation",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT31015",
+      "courseName": "Mathematical Computation IIA: Convex Optimization",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT31240",
+      "courseName": "Variational Methods in Image Processing",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT31470",
+      "courseName": "Applied Complex Analysis",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT32940",
+      "courseName": "Multivariate Data Analysis via Matrix Decompositions",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT36900",
+      "courseName": "Applied Longitudinal Data Analysis",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT37601",
+      "courseName": "Machine Learning and Large-Scale Data Analysis",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT37710",
+      "courseName": "Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT37797",
+      "courseName": "Topics in Mathematical Data Science: Spectral Methods and Nonconvex Optimization",
+      "approved": 1
+    },
+    {
+      "courseNumber": "STAT39000",
+      "courseName": "Stochastic Calculus",
+      "approved": 1
+    },
+    {
+      "courseNumber": "TTIC31020",
+      "courseName": "Introduction to Machine Learning",
+      "approved": 1
+    },
+    {
+      "courseNumber": "TTIC31110",
+      "courseName": "Speech Technologies",
+      "approved": 1
+    },
+    {
+      "courseNumber": "TTIC31150",
+      "courseName": "Mathematical Toolkit (CMSC 31150)",
+      "approved": 1
+    },
+    {
+      "courseNumber": "TTIC31180",
+      "courseName": "Probabilistic Graphical Models",
+      "approved": 1
+    },
+    {
+      "courseNumber": "TTIC31220",
+      "courseName": "Unsupervised Learning and Data Analysis",
+      "approved": 1
+    }
+  ]
+}
