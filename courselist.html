@@ -92,6 +92,19 @@
         .inquiry-text a:hover {
             text-decoration: underline;
         }
+
+        .site-footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .site-footer .last-updated {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -117,6 +130,10 @@
             <div id="not-approved-courses"></div>
         </div>
     </div>
+
+    <footer class="site-footer">
+        <p id="last-updated" class="last-updated" aria-live="polite"></p>
+    </footer>
 
     <script src="courselist.js"></script>
 </body>

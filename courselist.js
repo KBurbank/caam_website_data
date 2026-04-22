@@ -1,10 +1,38 @@
 let allCourses = [];
 
+function formatLastUpdated(isoDate) {
+    if (!isoDate || typeof isoDate !== 'string') return '';
+    const parts = isoDate.trim().split('-');
+    if (parts.length !== 3) return isoDate;
+    const y = parseInt(parts[0], 10);
+    const m = parseInt(parts[1], 10) - 1;
+    const d = parseInt(parts[2], 10);
+    if (Number.isNaN(y) || Number.isNaN(m) || Number.isNaN(d)) return isoDate;
+    const dt = new Date(y, m, d);
+    return dt.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+    });
+}
+
+function setLastUpdated(isoDate) {
+    const el = document.getElementById('last-updated');
+    if (!el) return;
+    const label = formatLastUpdated(isoDate);
+    if (label) {
+        el.textContent = 'List last updated: ' + label;
+    } else {
+        el.textContent = '';
+    }
+}
+
 function fetchCourses() {
     fetch('./courses.json')
         .then(response => response.json())
         .then(data => {
-            allCourses = data.courses;
+            allCourses = data.courses || [];
+            setLastUpdated(data.lastUpdated);
             document.getElementById('loading').style.display = 'none';
             displayCourses(allCourses);
         })
