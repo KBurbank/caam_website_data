@@ -472,27 +472,37 @@
     },
     {
       "courseNumber": "ECON20000",
-      "courseName": "The Elements of Economic Analysis I-II-III-IV.",
+      "courseName": "The Elements of Economic Analysis I.",
       "approved": 0
     },
     {
       "courseNumber": "ECON20010",
-      "courseName": "The Elements of Economic Analysis: Honors I-II-III.",
-      "approved": 1
+      "courseName": "The Elements of Economic Analysis I Honors.",
+      "approved": 0
     },
     {
       "courseNumber": "ECON20100",
-      "courseName": "The Elements of Economic Analysis I-II-III-IV.",
+      "courseName": "The Elements of Economic Analysis II.",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECON20110",
+      "courseName": "The Elements of Economic Analysis II Honors.",
       "approved": 0
     },
     {
       "courseNumber": "ECON20200",
-      "courseName": "The Elements of Economic Analysis I-II-III-IV.",
+      "courseName": "The Elements of Economic Analysis III.",
       "approved": 0
     },
     {
       "courseNumber": "ECON20210",
-      "courseName": "The Elements of Economic Analysis: Honors I-II-III.",
+      "courseName": "The Elements of Economic Analysis III Honors.",
+      "approved": 0
+    },
+    {
+      "courseNumber": "ECON20300",
+      "courseName": "Elements of Economic Analysis IV.",
       "approved": 0
     },
     {
@@ -936,5 +946,5 @@
       "approved": 1
     }
   ],
-  "lastUpdated": "2026-04-22"
+  "lastUpdated": "2026-05-11"
 }
