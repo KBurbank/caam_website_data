@@ -251,6 +251,11 @@
       "approved": 1
     },
     {
+      "courseNumber": "CMSC25050",
+      "courseName": "Computer Vision",
+      "approved": 1
+    },
+    {
       "courseNumber": "CMSC25300",
       "courseName": "Mathematical Foundations of Machine Learning",
       "approved": 1
@@ -394,6 +399,11 @@
       "courseNumber": "DATA27100",
       "courseName": "Data Science Clinic I-II.",
       "approved": 0
+    },
+    {
+      "courseNumber": "DATA37712",
+      "courseName": "Foundations of Machine Learning and AI - Part II",
+      "approved": 1
     },
     {
       "courseNumber": "ECMA31000",
@@ -716,8 +726,18 @@
       "approved": 0
     },
     {
+      "courseNumber": "MENG25510",
+      "courseName": "Quantum Molecular and Materials Modeling",
+      "approved": 1
+    },
+    {
       "courseNumber": "MENG25620",
       "courseName": "Applied Artificial Intelligence for Materials Science and Engineering",
+      "approved": 1
+    },
+    {
+      "courseNumber": "MENG26400",
+      "courseName": "Quantum Computation",
       "approved": 1
     },
     {
@@ -746,8 +766,18 @@
       "approved": 1
     },
     {
+      "courseNumber": "PHYS23400",
+      "courseName": "Quantum Mechanics I",
+      "approved": 1
+    },
+    {
       "courseNumber": "PHYS23410",
       "courseName": "Quantum Mechanics I-II-III.",
+      "approved": 1
+    },
+    {
+      "courseNumber": "PHYS23500",
+      "courseName": "Quantum Mechanics II",
       "approved": 1
     },
     {
@@ -769,6 +799,11 @@
       "courseNumber": "PHYS27900",
       "courseName": "Statistical and Thermal Physics",
       "approved": 1
+    },
+    {
+      "courseNumber": "STAT20000",
+      "courseName": "Elementary Statistics",
+      "approved": 0
     },
     {
       "courseNumber": "STAT22000",
@@ -946,5 +981,5 @@
       "approved": 1
     }
   ],
-  "lastUpdated": "2026-05-11"
+  "lastUpdated": "2026-09-21"
 }
